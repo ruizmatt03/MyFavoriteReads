@@ -39,6 +39,17 @@
         text-align: center;
       }
       
+      .closed {
+        background-color: red;
+      }
+      
+      p#closed {
+        text-align: center;
+        text-color: purple;
+        font-weight: bold;
+        text-size: 10pt;
+      }
+      
       p#returntop {
         text-size: 10px;
         font-style: bold;
@@ -161,13 +172,13 @@
         <td> Chris Paolini </td>
         <td> 206-143-5800 </td>
       </tr>
-      <tr>
+      <tr class="closed">
         <td> Thursday </td>
         <td> 8am-9pm </td>
         <td> Chris Paolini </td>
         <td> 206-143-5800 </td>
       </tr>
-      <tr>
+      <tr class="closed">
         <td> Friday </td>
         <td> 8am-10pm </td>
         <td> Arnold Cunningham </td>
@@ -180,6 +191,11 @@
         <td> 206-763-9090 </td>
       </tr>
     </table>
+    
+    <br>
+    <br>
+    
+    <p id="notice"> Notice: The library will be closed on Thursday the 10th and Friday the 11th due to lack of staff from COVID related issues </p>
     
     <br>
     <br>
